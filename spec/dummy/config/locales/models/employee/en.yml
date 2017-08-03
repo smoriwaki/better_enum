@@ -1,0 +1,18 @@
+en:
+  activerecord:
+    models:
+      employee: 'Employee'
+    attributes:
+      employee:
+        id: 'ID'
+        gender: 'Gender'
+        age: 'Age'
+        name: 'Name'
+        created_at: 'Created at'
+        updated_at: 'Updated at'
+    enums:
+      employee:
+        gender:
+          male: 'Male'
+          female: 'Female'
+          other: 'Other'
